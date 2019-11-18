@@ -79,7 +79,13 @@ const App = () => {
   );
 
   const startupScreen = (
-    <div className="carousel-slide" key="initial-carousel-image">
+    <div
+      className="carousel-slide"
+      key="initial-carousel-image"
+      onClick={() => {
+        setActiveSlide(0);
+      }}
+    >
       <img src={startupScreenImage} alt="smoothie-music" />
     </div>
   );
