@@ -108,11 +108,18 @@ ul.social__icons {
 }
 
 @media only screen and (max-width: 500px) {
+  .header {
+    & img {
+      height: 6em;
+    }
+  }
   .navigation--mobile {
-    margin: 0 auto;
+    margin: 0.75em 0;
+    font-size: 16px;
+    height: auto;
   }
   ul.social__icons {
-    margin: 0 auto;
+    margin: 1em auto;
   }
 }
 
