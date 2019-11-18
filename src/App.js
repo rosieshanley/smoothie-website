@@ -5,7 +5,7 @@ import Slider from "react-awesome-slider";
 import SocialIcons from "./Components/SocialIcons";
 import logo from "./assets/images/logo.png";
 import startupScreenImage from "./assets/images/initial-carousel-image.png";
-import carouselItems from "./assets/images/carousel";
+import carouselItems from "./carousel.js";
 import sliderStyles from "./assets/styles/slider.scss";
 import theme from "./theme";
 import "./App.scss";
