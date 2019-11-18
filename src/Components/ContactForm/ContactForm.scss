@@ -1,0 +1,78 @@
+.form-container {
+  width: 100%;
+  display: block;
+  margin: 4em auto 0;
+}
+
+.form {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-title {
+  width: 100%;
+  font-family: "Poppins", Arial, serif;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #f7941d;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1.75rem;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form-control {
+  display: flex;
+  width: 100%;
+  color: #333;
+  box-shadow: none;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-width: 1px;
+  text-transform: uppercase;
+  letter-spacing: 0.09375rem;
+  font-size: 0.625rem;
+  padding: 1rem 0.9375rem;
+  box-shadow: none;
+  ::placeholder {
+    color: #555;
+  }
+}
+
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+
+.btn.form-button {
+  background-color: #f7941d;
+  border: none;
+  color: white;
+  border-width: 2px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.625rem;
+  padding: 0.9375rem 1.75rem;
+  width: 200px;
+}
+
+// desktop styling
+@media only screen and (min-width: 768px) {
+  .form-container {
+    width: 400px;
+  }
+  .btn.form-button {
+    width: 100px;
+  }
+}
