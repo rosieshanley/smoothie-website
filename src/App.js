@@ -97,7 +97,7 @@ const App = () => {
       Learn More
     </div>
   );
-  console.log(activeSlide);
+
   return (
     <div className="app">
       <MuiThemeProvider theme={theme}>
